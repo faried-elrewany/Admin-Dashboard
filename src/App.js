@@ -1,13 +1,20 @@
-import { React } from "react";
-import Stack from "@mui/material/Stack";
-import Button from "@mui/material/Button";
-export default function BasicButtons() {
+import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import { CssBaseline, ThemeProvider } from "@mui/material";
+import { ColorModeContext, useMode } from "./Theme";
+import Topbar from "./Views/Global/Topbar";
+export default function App() {
+  const [theme, colorMode] = useMode();
   return (
-    <Stack spacing={2} direction="column">
-      <h1>بسم الله الرحمن الرحيم</h1>
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
-    </Stack>
+    <ColorModeContext.Provider value={colorMode}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <div className="app">
+          <main>
+            <Topbar />
+          </main>
+        </div>
+      </ThemeProvider>
+    </ColorModeContext.Provider>
   );
 }
