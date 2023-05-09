@@ -3,6 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./Theme";
 import Topbar from "./Views/Global/Topbar";
+import Layout from "./Views/Global/Layout";
+import { ProSidebarProvider } from "react-pro-sidebar";
+
 export default function App() {
   const [theme, colorMode] = useMode();
   return (
@@ -11,7 +14,10 @@ export default function App() {
         <CssBaseline />
         <div className="app">
           <main>
-            <Topbar />
+            {/* <Topbar /> */}
+            <ProSidebarProvider>
+              <Layout />
+            </ProSidebarProvider>
           </main>
         </div>
       </ThemeProvider>
