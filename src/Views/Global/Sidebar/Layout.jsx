@@ -256,11 +256,11 @@ const MyProSidebar = () => {
           color: "inherit !important",
           backgroundColor: "transparent !important",
         },
-        "& .menu-item:hover": {
+        "& .ps-menu-button:hover": {
           color: `${colors.blueAccent[500]} !important`,
           backgroundColor: "transparent !important",
         },
-        "& .menu-item.active": {
+        "& .ps-menu-button.ps-active": {
           color: `${colors.greenAccent[500]} !important`,
           backgroundColor: "transparent !important",
         },
@@ -329,9 +329,7 @@ const MyProSidebar = () => {
                   alt="profile user"
                   width="100px"
                   height="100px"
-                  src={
-                    "../../../../public/84689291_572661579985274_335959518783471616_n.jpg"
-                  }
+                  src={"../../assets/logo192.png"}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>

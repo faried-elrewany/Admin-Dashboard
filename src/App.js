@@ -8,6 +8,7 @@ import { ProSidebarProvider } from "react-pro-sidebar";
 import { MyProSidebarProvider } from "./Views/Global/Sidebar/sidebarContext";
 export default function App() {
   const [theme, colorMode] = useMode();
+  console.log(theme.palette.mode, colorMode);
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
