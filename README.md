@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+مساء الخير
+
+ممكن اي نصايح او فيدباك عن
+trufla frontend internship (react)
+كنت بقالي فترة بتعلم رياكت وحاليا بتعلم في
+redux toolkit ,material ui
+
+عملت كذا بروجكت بالجافا سكريبت ومجهز البورتفوليو
+وانا الي عامله مش جايبه من فيديوهات اليوتيوب ولا حاجه
+كنت حالل حوالي 400 بروبلم  
+ في كذا مكان كود فورسيز وليت كود وتوب كودر
+بس موقف حل بقالي سنه ومش مراجع الداتا استراكشر
+فهل بيركزو عليها ولا لا وبيهتمو بايه في الانترفيو
+حتي لو محصلش نصيب المره دي ابقي جاهز المره الجايه
+وانا حاليا في ترم التخرج
+
+لو حد مش عايز يكتب ف الكومنتس يكتب نقطه وانا هدخل اكلمه
