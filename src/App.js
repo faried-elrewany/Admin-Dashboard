@@ -6,6 +6,7 @@ import Topbar from "./Views/Global/Topbar";
 import Layout from "./Views/Global/Sidebar/Layout";
 import { ProSidebarProvider } from "react-pro-sidebar";
 import { MyProSidebarProvider } from "./Views/Global/Sidebar/sidebarContext";
+import Team from "./Views/Team/Team";
 export default function App() {
   const [theme, colorMode] = useMode();
   console.log(theme.palette.mode, colorMode);
@@ -18,8 +19,8 @@ export default function App() {
             <main>
               <Topbar />
               <Routes>
-                {/* <Route path="/" element={<Dashboard />} />
                 <Route path="/team" element={<Team />} />
+                {/* <Route path="/" element={<Dashboard />} />
                 <Route path="/contacts" element={<Contacts />} />
                 <Route path="/invoices" element={<Invoices />} />
                 <Route path="/form" element={<Form />} />
