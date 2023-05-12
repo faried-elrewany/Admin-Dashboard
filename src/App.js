@@ -19,7 +19,7 @@ export default function App() {
             <main>
               <Topbar />
               <Routes>
-                <Route path="/team" element={<Team />} />
+                <Route path="/src/Views/Team/Team.jsx" element={<Team />} />
                 {/* <Route path="/" element={<Dashboard />} />
                 <Route path="/contacts" element={<Contacts />} />
                 <Route path="/invoices" element={<Invoices />} />

@@ -363,7 +363,7 @@ const MyProSidebar = () => {
             </Typography>
             <Item
               title="Manage Team"
-              to="/team"
+              to="../../Team/Team.jsx"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
